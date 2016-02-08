@@ -19,25 +19,34 @@ header {
   background-image: url('../img/fields.jpg');
   background-size: cover;
   overflow: auto;
-  height: 800px;
+  height: 850px;
   text-transform: uppercase;
   color: white;
+  position: relative;
+  width: 100%;
 }
 
 .logo img {
   max-width: 70px;
+  vertical-align: middle;
+  margin-right: 15px;
 }
 
 .logo h2 {
   display: inline-block;
+  font-weight: 100;
+  font-size: 2rem;
+  vertical-align: middle;
 }
 
 .links ul {
   list-style: none;
+  margin-top: 30px;
 }
 
 .links ul li {
   display: inline;
+  margin-left: 20px;
 }
 
 .logo {
@@ -51,11 +60,12 @@ header {
 nav {
   height: 100px;
   font-weight: 100;
+  padding: 10px 0;
 }
 
 .subheader {
   text-align: center;
-  margin-top: 100px;
+  margin-top: 150px;
 }
 
 .subheader h1 {
@@ -70,4 +80,62 @@ nav {
   font-weight: 100;
   /*letter-spacing: 4px;*/
   margin: 0;
+}
+
+.button {
+  margin: auto;
+  text-align: center;
+  width: 232px;
+  height: 49px;
+  border: 4px solid rgba(231,137,112,0.5);
+  border-radius: 2px;
+}
+
+.button h3 {
+  display: block;
+  height: 100%;
+  background-color: #e78970;
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 100;
+  line-height: 43px;
+}
+
+
+.start {
+  margin-top: 80px;
+}
+
+.start p {
+  text-align: center;
+  font-weight: 100;
+  font-style: italic;
+  text-transform: lowercase;
+  font-family: serif;
+  letter-spacing: 1px;
+}
+
+#triangle {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 20px;
+  background-color: white;
+}
+#triangle:before, #triangle:after {
+  content:'';
+  position: absolute;
+  bottom: 100%;
+  width: 50%;
+  box-sizing: border-box;
+}
+#triangle:before {
+  right: 50%;
+  border-bottom: 20px solid white;
+  border-right: 20px solid transparent;
+}
+#triangle:after {
+  left: 50%;
+  border-bottom: 20px solid white;
+  border-left: 20px solid transparent;
 }
