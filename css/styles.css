@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,100italic,300italic,400italic);
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: 1240px;
+  margin: auto;
+}
+
+/* Header Styles */
+
+header {
+  background-image: url('../img/fields.jpg');
+  background-size: cover;
+  overflow: auto;
+  height: 800px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.logo img {
+  max-width: 70px;
+}
+
+.logo h2 {
+  display: inline-block;
+}
+
+.links ul {
+  list-style: none;
+}
+
+.links ul li {
+  display: inline;
+}
+
+.logo {
+  float: left;
+}
+
+.links {
+  float: right;
+}
+
+nav {
+  height: 100px;
+  font-weight: 100;
+}
+
+.subheader {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.subheader h1 {
+  display: block;
+  font-size: 9.36rem;
+  font-weight: 100;
+  margin: 0;
+}
+
+.subheader h2 {
+  font-size: 4.2rem;
+  font-weight: 100;
+  /*letter-spacing: 4px;*/
+  margin: 0;
+}
