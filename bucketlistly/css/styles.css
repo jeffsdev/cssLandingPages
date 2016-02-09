@@ -10,7 +10,7 @@ body {
 }
 
 header {
-  background-image: url('../img/mountain.jpg');
+  background-image: url('../img/sahara.jpg');
   background-size: cover;
   height: 100vh;
 }
@@ -19,6 +19,7 @@ nav {
   height: 100px;
   font-weight: 100;
   padding: 0 20px;
+  margin-bottom: 150px;
 }
 
 .links ul {
@@ -56,4 +57,53 @@ nav img {
   background-color: gold;
   color: black;
   padding: 10px;
+}
+
+#landing {
+  display: block;
+  margin: auto;
+
+}
+
+header h1 {
+  color: white;
+  text-align: center;
+  font-size: 6rem;
+  margin: 20px;;
+}
+
+header h3 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-family: serif;
+  font-style: italic;
+  color: white;
+}
+
+#buttons {
+  margin: auto;
+  width: 800px;
+  text-align: center;
+}
+
+.stories,
+.facebook {
+  display: inline-block;
+  width: 360px;
+  background: #999;
+  margin: 15px;
+}
+
+.stories {
+  border: 4px solid #999;
+  border-radius: 4px;
+  height: 72px;
+  background: rgba(100, 100, 100, 0.5);
+}
+
+.facebook {
+  height: 72px;
+  border: 4px solid blue;
+  border-radius: 4px;
+  background: blue;
 }
