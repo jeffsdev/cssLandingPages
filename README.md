@@ -12,4 +12,4 @@ _Remake landing pages of Thankful and Bucketlistly using HTML and CSS (no Bootst
 
 *MIT License*
 
-Copyright (c) 2015 **_Jeff Seymour & Oskar Radon_**
+Copyright (c) 2016 **_Jeff Seymour & Oskar Radon_**
